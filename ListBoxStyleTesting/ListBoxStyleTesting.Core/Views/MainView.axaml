@@ -28,6 +28,12 @@
                             <Setter Property="Background" Value="LightBlue" />
                         </Style>
                     </Style>
+					<Style Selector="ListBoxItem:pointerover /template/ Border#Part_Border">
+						<Setter Property="Background" Value="LightBlue" />
+					</Style>
+					<Style Selector="ListBoxItem:pointerover > Border">
+						<Setter Property="Background" Value="LightBlue" />
+					</Style>
                 </ListBox.Styles>
                 <ListBox.ItemsPanel>
                     <ItemsPanelTemplate>
